@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/border_shape"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/savedImageIv"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:src="@drawable/tshirt30" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/savedImageIv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:padding="@dimen/_10sdp"
+        android:text="Tshirt Saved Successfully!"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12sdp" />
+
+
+    <RelativeLayout
+        android:id="@+id/localAdLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:background="@color/whitee"
+        android:padding="@dimen/_10sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/yellow"
+                android:padding="@dimen/_2sdp"
+                android:text="Ad"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_8sdp" />
+
+
+            <ImageView
+                android:id="@+id/localAdIv"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:src="@drawable/birthdayapp_ad" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/localAdTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Birthday Editor"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+                <TextView
+                    android:id="@+id/localAdDesc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:maxLines="1"
+                    android:text="Best Editor with Collection of Birthday Invitation"
+                    android:textSize="@dimen/_7sdp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/dialogBtnSavedOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/localAdLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:backgroundTint="@color/purple"
+        android:text="Ok"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Tshirt Design Maker</string>
+    <string name="fileName">Quest Tshirt Designer</string>
+    <string name="app">Tshirt</string>
+    <string name="disclaimer">The graphics used in this app is may gathered from different resources. It belongs to their respective owners. If there is any query/issue please contacts us at questappx@gmail.com</string>
+
+
+    //tshirt
+    <string name="facebook_app_id">746042387103354</string>
+    <string name="admob_app_id">ca-app-pub-7236509513325540~9321367611</string>
+    <string name="appOpen">ca-app-pub-7236509513325540/7213793613</string>
+    <string name="admob_banner">ca-app-pub-7236509513325540/2631836184</string>
+    <string name="admob_rewarded">ca-app-pub-7236509513325540/6654296818</string>
+    <string name="admob_interstitial">ca-app-pub-7236509513325540/3661846827</string>
+    <string name="fan_interstitial">746042387103354_746044267103166</string>
+    <string name="fan_appId">746042387103354</string>
+    <string name="fan_bannerId">746042387103354_746044020436524</string>
+</resources>

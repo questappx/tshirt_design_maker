@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <!--    Layout for Backgrounds Options-->
+    <RelativeLayout
+        android:id="@+id/linearlayout_bgsOptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5sp"
+        android:background="@color/white"
+        android:visibility="gone"
+        >
+
+
+        <LinearLayout
+            android:id="@+id/footerBgsOptionLayout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/_5sdp"
+            android:paddingRight="@dimen/_5sdp"
+            android:weightSum="4">
+
+<!--            //Edit Text Button-->
+
+            <RelativeLayout
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="15sp"
+                android:orientation="vertical">
+
+
+                <ImageButton
+                    android:id="@+id/offlinebgsIv"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:background="@drawable/bg"
+                    android:visibility="gone"
+
+                    />
+
+                <RelativeLayout
+                    android:id="@+id/offlineBgsBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg_clicked" />
+
+            </RelativeLayout>
+
+<!--            //Change Shadow Button-->
+
+            <RelativeLayout
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="15sp"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/colorBgIv"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:background="@drawable/color"
+                    android:visibility="gone" />
+
+
+                <RelativeLayout
+                    android:id="@+id/colorBgBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/color" />
+            </RelativeLayout>
+
+<!--            //Change Font Button-->
+
+            <RelativeLayout
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="15sp"
+                android:gravity="center">
+
+
+                <ImageButton
+                    android:id="@+id/gradientBgIv"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:background="@drawable/font"
+                    android:visibility="gone" />
+
+                <RelativeLayout
+                    android:id="@+id/gradientBgBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gradient" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:gravity="center">
+
+
+                <ImageButton
+                    android:id="@+id/filterBgIv"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:background="@drawable/filter"
+                    android:visibility="gone" />
+
+                <RelativeLayout
+                    android:id="@+id/filterBgBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/filter" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <!--    Layout for Text Adjusments-->
+    <RelativeLayout
+        android:id="@+id/linearlayout_textAdjustments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingTop="5sp"
+        android:visibility="gone"
+        >
+
+
+        <LinearLayout
+            android:id="@+id/footerTextAdjustLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="6">
+
+<!--            //Text allignment-->
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/changeTextAlignIv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:visibility="gone"
+                    android:layout_marginTop="@dimen/_8sdp"
+                     />
+
+
+                <RelativeLayout
+                    android:id="@+id/changeTextAlignBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/controls" />
+
+            </RelativeLayout>
+
+            //Edit Text Button
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <ImageButton
+                    android:id="@+id/edittextImgBtn"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:visibility="gone"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:background="@drawable/edittext"
+
+                    />
+
+                <RelativeLayout
+                    android:id="@+id/editTextBtn"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/edittext"
+                    android:layout_height="match_parent" />
+
+            </RelativeLayout>
+
+            //Change Color Button
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/changeColorImg"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_centerHorizontal="true"
+                    android:visibility="gone"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:background="@drawable/color" />
+
+                <RelativeLayout
+                    android:id="@+id/changeColorBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/color" />
+
+            </RelativeLayout>
+
+
+            //Change Shadow Button
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/shadowImg"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:visibility="gone"
+                    android:background="@drawable/shadow" />
+
+                <RelativeLayout
+                    android:id="@+id/shadowBtn"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/shadow"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+
+            //Change Font Button
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+
+                <ImageButton
+                    android:id="@+id/changeFontImgBtn"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_centerHorizontal="true"
+                    android:visibility="gone"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:background="@drawable/font" />
+
+                <RelativeLayout
+                    android:id="@+id/changeFontBtn"
+                    android:background="@drawable/font"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+
+                <ImageButton
+                    android:id="@+id/changeTextOpacityImgBtn"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:visibility="gone"
+                    android:background="@drawable/opacity" />
+
+                <RelativeLayout
+                    android:id="@+id/changeTextOpacityBtn"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/opacity"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

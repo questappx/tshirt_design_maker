@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+       <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title"
+        android:layout_marginTop="-10dp"
+        android:background="@drawable/main_bg" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        android:id="@+id/goPremiumLayout"
+        android:gravity="center"
+        android:layout_margin="@dimen/_5sdp"
+        >
+
+        <ImageView
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:padding="@dimen/_5sdp"
+            android:src="@drawable/premium"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go Premium"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_9sdp"
+
+            />
+
+        <TextView
+            android:id="@+id/purchaseStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:alpha="0.7"
+            android:textSize="@dimen/_9sdp"
+
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_below="@id/goPremiumLayout"
+        android:layout_height="wrap_content"
+        android:text="Purchase status"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_9sdp"
+        android:visibility="gone"
+        />
+
+
+
+    <ImageView
+        android:id="@+id/shirtMainBg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:layout_above="@id/layoutBtns"
+        android:src="@drawable/shirt_mainbg" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:background="@color/mainAppColor"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/_10sdp"
+        android:visibility="gone"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_13sdp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layoutBtns"
+            android:orientation="vertical"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:layout_above="@id/tv_privacyPolicy"
+            android:gravity="center"
+            >
+
+                <ImageButton
+                    android:id="@+id/btn_create"
+                    android:layout_width="@dimen/_200sdp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="@dimen/_37sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:background="@drawable/create"
+                    />
+
+            <ImageButton
+                android:id="@+id/savedImages"
+                android:layout_width="@dimen/_200sdp"
+                android:layout_height="@dimen/_37sdp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:visibility="gone"
+                android:background="@drawable/saved"
+                android:onClick="saveWork" />
+
+            <ImageButton
+                android:id="@+id/rate_us"
+                android:layout_width="@dimen/_200sdp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_height="@dimen/_37sdp"
+                android:background="@drawable/rateus"
+                />
+
+                <ImageButton
+                    android:id="@+id/btn_moreapp"
+                    android:layout_width="@dimen/_200sdp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="@dimen/_37sdp"
+                    android:background="@drawable/moreapp"
+                    />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    <View
+        android:id="@+id/viewBorder"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_2sdp"
+        android:layout_above="@id/tv_Disclaimer"
+        android:layout_marginBottom="@dimen/_80sdp" />
+
+    <TextView
+        android:id="@+id/tv_Disclaimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="Disclaimer"
+        android:textColor="#343435"
+        android:visibility="gone"
+        android:padding="@dimen/_10sdp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_privacyPolicy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/_8sdp"
+        android:text="Privacy Policy"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_10sdp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/splashScreen">
+        <include layout="@layout/splash_screen"/>
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

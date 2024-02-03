@@ -1,0 +1,2 @@
+include ':app', ':sticker'
+rootProject.name='Tshirt Design Maker'

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/mainAppColor</color>
+    <color name="colorPrimaryDark">@color/mainAppColor</color>
+    <color name="colorAccent">@color/mainAppColor</color>
+
+    <color name="shapesColor">#A61C1C1C</color>
+
+    <color name="mainAppColor">#0d0c3d</color>
+
+    <item name="whitee" type="color">#FFFFFF</item>
+    <item name="green" type="color">#FF99CC00</item>
+    <item name="orange" type="color">#FFFFBB33</item>
+    <item name="darkred" type="color">#FFCC0000</item>
+    <item name="color1" type="color">#995353</item>
+    <item name="color2" type="color">#3b744e</item>
+    <item name="color3" type="color">#3c366b</item>
+    <item name="color4" type="color">#8fc65252</item>
+    <item name="color5" type="color">#0d0c3d</item>
+    <item name="color6" type="color">#c658b0</item>
+    <item name="color7" type="color">#702c69</item>
+    <item name="color8" type="color">#313e33</item>
+    <item name="color9" type="color">#af7878</item>
+    <item name="color10" type="color">#cc7400</item>
+    <item name="color11" type="color">#c9cc00</item>
+    <item name="color12" type="color">#03d206</item>
+    <item name="color13" type="color">#008fcc</item>
+    <item name="color14" type="color">#2a2a9e</item>
+    <item name="color15" type="color">#4e83b7</item>
+    <item name="color16" type="color">#bf55e2</item>
+    <item name="color17" type="color">#6ad7a1</item>
+    <item name="color18" type="color">#d96d6d</item>
+    <item name="color19" type="color">#51a0a4</item>
+    <item name="color20" type="color">#366c43</item>
+    <item name="color21" type="color">#97a74e</item>
+    <item name="color22" type="color">#cf7b7b</item>
+    <item name="color23" type="color">#691a1a</item>
+    <item name="color24" type="color">#1e6b62</item>
+    <item name="color25" type="color">#71deb0</item>
+    <item name="color26" type="color">#f59b9b</item>
+    <item name="color27" type="color">#532991</item>
+    <item name="color28" type="color">#801168</item>
+    <item name="color29" type="color">#681055</item>
+    <item name="color30" type="color">#f56f91</item>
+    <item name="color31" type="color">#d4a466</item>
+    <item name="color32" type="color">#b34848</item>
+    <item name="color33" type="color">#1a84a4</item>
+    <item name="color34" type="color">#356e7c</item>
+    <item name="color35" type="color">#2943b9</item>
+    <item name="color36" type="color">#f14343</item>
+    <item name="color37" type="color">#a92645</item>
+    <item name="color38" type="color">#FFCC0000</item>
+    <item name="color39" type="color">#ba733c97</item>
+    <item name="color40" type="color">#3c798e</item>
+    <item name="color41" type="color">#43145e</item>
+    <item name="color42" type="color">#695493</item>
+    <item name="color43" type="color">#e46363</item>
+    <item name="color44" type="color">#0ad1a9</item>
+    <item name="color45" type="color">#1c6f9f</item>
+    <item name="color46" type="color">#3c50a1</item>
+    <item name="color47" type="color">#9e43da</item>
+    <item name="color48" type="color">#a56dce</item>
+    <item name="color49" type="color">#9440a3</item>
+    <item name="color50" type="color">#e483f5</item>
+    <item name="color51" type="color">#9118b3</item>
+    <item name="color52" type="color">#eab4e0</item>
+    <item name="color53" type="color">#3d9655</item>
+    <item name="color54" type="color">#ba5d5d</item>
+    <item name="color55" type="color">#d7c54c</item>
+    <item name="color56" type="color">#792626</item>
+    <item name="color57" type="color">#3d9f91</item>
+    <item name="color58" type="color">#171c45</item>
+    <item name="color59" type="color">#581971</item>
+    <item name="color60" type="color">#ce6acc</item>
+    <item name="color61" type="color">#830909</item>
+    <item name="color62" type="color">#cc008f</item>
+    <item name="color63" type="color">#5c00cc</item>
+    <item name="color64" type="color">#29513f</item>
+    <item name="color65" type="color">#9e4e4aa3</item>
+    <item name="color66" type="color">#cf6851df</item>
+    <item name="color67" type="color">#87a8f4</item>
+    <item name="color68" type="color">#4823dc</item>
+    <item name="color69" type="color">#98c8d4</item>
+    <item name="color70" type="color">#97a362</item>
+    <item name="color71" type="color">#8bb680</item>
+    <item name="color72" type="color">#2f7476</item>
+    <item name="color73" type="color">#4957af</item>
+    <item name="color74" type="color">#a66f50</item>
+    <item name="color75" type="color">#63c2ac</item>
+    <item name="color76" type="color">#2b6584</item>
+    <item name="color77" type="color">#3f5989</item>
+    <item name="color78" type="color">#a06adf</item>
+    <item name="color79" type="color">#82d4ab</item>
+    <item name="color80" type="color">#000000</item>
+    <item name="color81" type="color">#c48a48</item>
+    <item name="color82" type="color">#b45d5d</item>
+
+    <integer-array name="androidcolors">
+        <item>@color/whitee</item>
+        <item>@color/blue</item>
+        <item>@color/purple</item>
+        <item>@color/green</item>
+        <item>@color/orange</item>
+        <item>@color/red</item>
+        <item>@color/darkblue</item>
+        <item>@color/darkpurple</item>
+        <item>@color/darkgreen</item>
+        <item>@color/darkorange</item>
+        <item>@color/darkred</item>
+        <item>@color/color1</item>
+        <item>@color/color2</item>
+        <item>@color/color3</item>
+        <item>@color/color4</item>
+        <item>@color/color5</item>
+        <item>@color/color6</item>
+        <item>@color/color7</item>
+        <item>@color/color8</item>
+        <item>@color/color9</item>
+        <item>@color/color10</item>
+        <item>@color/color11</item>
+        <item>@color/color12</item>
+        <item>@color/color13</item>
+        <item>@color/color14</item>
+        <item>@color/color15</item>
+        <item>@color/color16</item>
+        <item>@color/color17</item>
+        <item>@color/color18</item>
+        <item>@color/color19</item>
+        <item>@color/color20</item>
+        <item>@color/color21</item>
+        <item>@color/color22</item>
+        <item>@color/color23</item>
+        <item>@color/color24</item>
+        <item>@color/color25</item>
+        <item>@color/color26</item>
+        <item>@color/color27</item>
+        <item>@color/color28</item>
+        <item>@color/color29</item>
+        <item>@color/color30</item>
+        <item>@color/color31</item>
+        <item>@color/color32</item>
+        <item>@color/color33</item>
+        <item>@color/color34</item>
+        <item>@color/color35</item>
+        <item>@color/color36</item>
+        <item>@color/color37</item>
+        <item>@color/color38</item>
+        <item>@color/color39</item>
+        <item>@color/color40</item>
+        <item>@color/color41</item>
+        <item>@color/color42</item>
+        <item>@color/color43</item>
+        <item>@color/color44</item>
+        <item>@color/color45</item>
+        <item>@color/color46</item>
+        <item>@color/color47</item>
+        <item>@color/color48</item>
+        <item>@color/color49</item>
+        <item>@color/color50</item>
+        <item>@color/color51</item>
+        <item>@color/color52</item>
+        <item>@color/color53</item>
+        <item>@color/color54</item>
+        <item>@color/color55</item>
+        <item>@color/color56</item>
+        <item>@color/color57</item>
+        <item>@color/color58</item>
+        <item>@color/color59</item>
+        <item>@color/color60</item>
+        <item>@color/color61</item>
+        <item>@color/color62</item>
+        <item>@color/color63</item>
+        <item>@color/color64</item>
+        <item>@color/color65</item>
+        <item>@color/color66</item>
+        <item>@color/color67</item>
+        <item>@color/color68</item>
+        <item>@color/color69</item>
+        <item>@color/color70</item>
+        <item>@color/color71</item>
+        <item>@color/color72</item>
+        <item>@color/color73</item>
+        <item>@color/color74</item>
+        <item>@color/color75</item>
+        <item>@color/color76</item>
+        <item>@color/color77</item>
+        <item>@color/color78</item>
+        <item>@color/color79</item>
+        <item>@color/color80</item>
+        <item>@color/color81</item>
+        <item>@color/color82</item>
+    </integer-array>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#F2699A</color>
+    <color name="purple_700">#F2699A</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="lightwhite">#FAF3B6</color>
+    <color name="grey">#858484</color>
+    <color name="pink">#F96680</color>
+    <color name="blue">#205EFB</color>
+    <color name="darkblue">#032BA1</color>
+    <color name="violet">#323D60</color>
+    <color name="darkviolet">#020E32</color>
+    <color name="lightgreen">#38FF00</color>
+    <color name="yellow">#FFD500</color>
+    <color name="lightyellow">#D3BE56</color>
+    <color name="darkorange">#FF3C00</color>
+    <color name="red">#EB1C24</color>
+    <color name="purple">#EC3757</color>
+    <color name="darkbrown">#872609</color>
+    <color name="brown">#AA3C20</color>
+    <color name="darkpurple">#BF1533</color>
+    <color name="darkgreen">#2C5C0A</color>
+    <color name="lightorange">#FB702D</color>
+    <color name="lightblue">#40A5F1</color>
+    <color name="lightgrey">#A19D9B</color>
+    <color name="parrotlight">#A0D151</color>
+    <color name="trustviolet">#527A98</color>
+    <color name="purplelight">#B774CA</color>
+    <color name="bluelight">#5587DF</color>
+    <color name="redlight">#DA4C4C</color>
+    <color name="violetdark">#0A5A98</color>
+    <color name="lightblack">#282829</color>
+    <color name="grey2">#DCDBDA</color>
+    <color name="footer_bg_color">#EDEAEA</color>
+    <color name="greyhalf">#8F5C5A5A</color>
+
+</resources>

@@ -1,0 +1,135 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Al-Hammd Tech/continuum/Project/Graffitti Logo Maker/app/src/main/res/layout/activity_editor.xml" value="0.3625" />
+        <entry key="..\:/Al-Hammd Tech/continuum/Project/Graffitti Logo Maker/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/Al-Hammd Tech/continuum/Project/Graffitti Logo Maker/app/src/main/res/layout/activity_share.xml" value="0.3625" />
+        <entry key="..\:/Al-Hammd Tech/continuum/Project/Graffitti Logo Maker/app/src/main/res/layout/save_work.xml" value="0.3625" />
+        <entry key="..\:/Al-Hammd Tech/continuum/Project/Graffitti Logo Maker/app/src/main/res/layout/splash_screen.xml" value="0.3625" />
+        <entry key="..\:/Workspace/Android Studio/Birthday Photo Frames/app/src/main/res/layout/activity_editor.xml" value="0.22" />
+        <entry key="..\:/Workspace/Android Studio/Birthday Photo Frames/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Workspace/Android Studio/Birthday Photo Frames/app/src/main/res/layout/bg_items.xml" value="0.2" />
+        <entry key="..\:/Workspace/Android Studio/Birthday Photo Frames/app/src/main/res/layout/changetext_dialo.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Android Studio/Birthday Photo Frames/app/src/main/res/layout/color_items.xml" value="0.2" />
+        <entry key="..\:/Workspace/Android Studio/Birthday Photo Frames/app/src/main/res/layout/griditem_frames.xml" value="0.2" />
+        <entry key="..\:/Workspace/Android Studio/Birthday Photo Frames/app/src/main/res/layout/griditem_stickers.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Android Studio/Birthday Photo Frames/app/src/main/res/layout/linear_layoutlist2.xml" value="0.25" />
+        <entry key="..\:/Workspace/Android Studio/Birthday Photo Frames/app/src/main/res/layout/linear_layoutlist3.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Android Studio/Birthday Photo Frames/app/src/main/res/layout/linear_layoutslist.xml" value="0.19692307692307692" />
+        <entry key="..\:/Workspace/Android Studio/Birthday Photo Frames/app/src/main/res/layout/linear_layoutslist1.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Android Studio/Birthday Photo Frames/app/src/main/res/layout/quote_item.xml" value="0.2" />
+        <entry key="..\:/Workspace/Android Studio/Birthday Photo Frames/app/src/main/res/layout/splash_screen.xml" value="0.67" />
+        <entry key="..\:/Workspace/Android Studio/Birthday Photo Frames/app/src/main/res/layout/textadjust_layout.xml" value="0.25" />
+        <entry key="..\:/Workspace/Android Studio/Birthday Photo Frames/sticker/src/main/res/drawable-anydpi/bring_front.xml" value="0.1365" />
+        <entry key="..\:/Workspace/Android Studio/Birthday Photo Frames/sticker/src/main/res/drawable-anydpi/ic_action_name.xml" value="0.1365" />
+        <entry key="..\:/Workspace/Android Studio/Birthday Photo Frames/sticker/src/main/res/drawable/sticker_transparent_background.xml" value="0.1365" />
+        <entry key="..\:/Workspace/Android Studio/Christmas/app/src/main/res/drawable-tvdpi/gradient_app.xml" value="0.1365" />
+        <entry key="..\:/Workspace/Android Studio/Christmas/app/src/main/res/drawable-tvdpi/red_gradient.xml" value="0.1365" />
+        <entry key="..\:/Workspace/Android Studio/Christmas/app/src/main/res/drawable-tvdpi/round.xml" value="0.1365" />
+        <entry key="..\:/Workspace/Android Studio/Christmas/app/src/main/res/drawable-tvdpi/yellow_gradient.xml" value="0.1365" />
+        <entry key="..\:/Workspace/Android Studio/Christmas/app/src/main/res/drawable/border_btn.xml" value="0.1365" />
+        <entry key="..\:/Workspace/Android Studio/Christmas/app/src/main/res/drawable/border_shape.xml" value="0.1365" />
+        <entry key="..\:/Workspace/Android Studio/Christmas/app/src/main/res/drawable/btn_border.xml" value="0.1365" />
+        <entry key="..\:/Workspace/Android Studio/Christmas/app/src/main/res/drawable/grad.xml" value="0.1365" />
+        <entry key="..\:/Workspace/Android Studio/Christmas/app/src/main/res/drawable/gradient_app.xml" value="0.1365" />
+        <entry key="..\:/Workspace/Android Studio/Christmas/app/src/main/res/drawable/gradtwo.xml" value="0.1365" />
+        <entry key="..\:/Workspace/Android Studio/Christmas/app/src/main/res/layout/activity_editor.xml" value="0.25" />
+        <entry key="..\:/Workspace/Android Studio/Christmas/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Android Studio/Christmas/app/src/main/res/layout/activity_wishes.xml" value="0.25" />
+        <entry key="..\:/Workspace/Android Studio/Christmas/app/src/main/res/layout/changetext_dialo.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Android Studio/Christmas/app/src/main/res/layout/disclaimer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Android Studio/Christmas/app/src/main/res/layout/gradient.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Android Studio/Christmas/app/src/main/res/layout/griditem_frames.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Android Studio/Christmas/app/src/main/res/layout/linear_layoutlist2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Android Studio/Christmas/app/src/main/res/layout/linear_layoutlist3.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Android Studio/Christmas/app/src/main/res/layout/linear_layoutslist1.xml" value="0.25" />
+        <entry key="..\:/Workspace/Android Studio/Christmas/app/src/main/res/layout/main_buttons.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Android Studio/Christmas/app/src/main/res/layout/pro_item_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Android Studio/Christmas/app/src/main/res/layout/quote_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Android Studio/Christmas/app/src/main/res/layout/splash_screen.xml" value="0.22" />
+        <entry key="..\:/Workspace/Android Studio/Christmas/app/src/main/res/layout/sticker_view.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Android Studio/Christmas/app/src/main/res/layout/watchad_dialoge.xml" value="0.25" />
+        <entry key="..\:/Workspace/Android Studio/Christmas/app/src/main/res/layout/watchad_otherframes_dialog.xml" value="0.25" />
+        <entry key="..\:/Workspace/Android Studio/Christmas/app/src/main/res/menu/editor_meny.xml" value="0.1" />
+        <entry key="..\:/Workspace/Anniversary/app/src/main/res/layout/activity_category.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Anniversary/app/src/main/res/layout/activity_editor.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Anniversary/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Anniversary/app/src/main/res/layout/activity_wishes.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Anniversary/app/src/main/res/layout/bg_items.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Anniversary/app/src/main/res/layout/changetext_dialo.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Anniversary/app/src/main/res/layout/color_items.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Anniversary/app/src/main/res/layout/disclaimer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Anniversary/app/src/main/res/layout/linear_layoutslist1.xml" value="0.22" />
+        <entry key="..\:/Workspace/Anniversary/app/src/main/res/layout/pro_item_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Anniversary/app/src/main/res/layout/splash_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Anniversary/app/src/main/res/layout/watchad_dialoge.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Anniversary/app/src/main/res/layout/watchad_otherframes_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Tshirt Maker/app/src/main/res/drawable/border_btn.xml" value="0.1745" />
+        <entry key="..\:/Workspace/Tshirt Maker/app/src/main/res/drawable/rate_shape_dialog.xml" value="0.1745" />
+        <entry key="..\:/Workspace/Tshirt Maker/app/src/main/res/layout/activity_editor.xml" value="0.25" />
+        <entry key="..\:/Workspace/Tshirt Maker/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Workspace/Tshirt Maker/app/src/main/res/layout/delete_alert.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Tshirt Maker/app/src/main/res/layout/disclaimer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Tshirt Maker/app/src/main/res/layout/griditem_frames.xml" value="0.33" />
+        <entry key="..\:/Workspace/Tshirt Maker/app/src/main/res/layout/imagesaved_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Tshirt Maker/app/src/main/res/layout/import_picture_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Tshirt Maker/app/src/main/res/layout/linear_layoutlist2.xml" value="0.33" />
+        <entry key="..\:/Workspace/Tshirt Maker/app/src/main/res/layout/linear_layoutlist3.xml" value="0.25" />
+        <entry key="..\:/Workspace/Tshirt Maker/app/src/main/res/layout/linear_layoutslist1.xml" value="0.25" />
+        <entry key="..\:/Workspace/Tshirt Maker/app/src/main/res/layout/loadmore_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Tshirt Maker/app/src/main/res/layout/quote_item.xml" value="0.1" />
+        <entry key="..\:/Workspace/Tshirt Maker/app/src/main/res/layout/save_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Tshirt Maker/app/src/main/res/layout/save_work.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Tshirt Maker/app/src/main/res/layout/show_save.xml" value="0.22" />
+        <entry key="..\:/Workspace/Tshirt Maker/app/src/main/res/layout/splash_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Tshirt Maker/app/src/main/res/layout/sticker_view.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Tshirt Maker/app/src/main/res/menu/editor_meny.xml" value="0.1" />
+        <entry key="..\:/Workspace/Tshirt Maker/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1745" />
+        <entry key="..\:/Workspace/Tshirt Maker/sticker/src/main/res/drawable/sticker_transparent_background.xml" value="0.187" />
+        <entry key="..\:/Workspace/Wedding/app/src/main/res/drawable/grad.xml" value="0.1365" />
+        <entry key="..\:/Workspace/Wedding/app/src/main/res/drawable/txt_dialog_btn.xml" value="0.1365" />
+        <entry key="..\:/Workspace/Wedding/app/src/main/res/layout/activity_category.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Wedding/app/src/main/res/layout/activity_editor.xml" value="0.25" />
+        <entry key="..\:/Workspace/Wedding/app/src/main/res/layout/activity_main.xml" value="0.20102564102564102" />
+        <entry key="..\:/Workspace/Wedding/app/src/main/res/layout/activity_wishes.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Wedding/app/src/main/res/layout/bg_items.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Wedding/app/src/main/res/layout/changetext_dialo.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Wedding/app/src/main/res/layout/linear_layoutlist2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Wedding/app/src/main/res/layout/linear_layoutlist3.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Wedding/app/src/main/res/layout/linear_layoutslist1.xml" value="0.25" />
+        <entry key="..\:/Workspace/Wedding/app/src/main/res/layout/pro_item_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Wedding/app/src/main/res/layout/quote_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Wedding/app/src/main/res/layout/splash_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Wedding/app/src/main/res/layout/sticker_view.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/practice modul/app/src/main/res/drawable/border_shape.xml" value="0.117" />
+        <entry key="..\:/Workspace/practice modul/app/src/main/res/drawable/btn_border.xml" value="0.117" />
+        <entry key="..\:/Workspace/practice modul/app/src/main/res/layout/activity_editor.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/practice modul/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Workspace/practice modul/app/src/main/res/layout/activity_share.xml" value="0.1" />
+        <entry key="..\:/Workspace/practice modul/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/practice modul/app/src/main/res/layout/activity_wishes.xml" value="0.2" />
+        <entry key="..\:/Workspace/practice modul/app/src/main/res/layout/category_btn_itemlayout.xml" value="0.2" />
+        <entry key="..\:/Workspace/practice modul/app/src/main/res/layout/changetext_dialo.xml" value="0.2" />
+        <entry key="..\:/Workspace/practice modul/app/src/main/res/layout/disclaimer.xml" value="0.2" />
+        <entry key="..\:/Workspace/practice modul/app/src/main/res/layout/griditem_frames.xml" value="0.2" />
+        <entry key="..\:/Workspace/practice modul/app/src/main/res/layout/quote_item.xml" value="0.2" />
+        <entry key="..\:/Workspace/practice modul/app/src/main/res/layout/save_dialog.xml" value="0.2" />
+        <entry key="..\:/Workspace/practice modul/app/src/main/res/layout/save_item.xml" value="0.2" />
+        <entry key="..\:/Workspace/practice modul/app/src/main/res/layout/save_work.xml" value="0.1" />
+        <entry key="..\:/Workspace/practice modul/app/src/main/res/layout/send_email.xml" value="0.2" />
+        <entry key="..\:/Workspace/practice modul/app/src/main/res/layout/splash_screen.xml" value="0.17962962962962964" />
+        <entry key="..\:/Workspace/practice modul/app/src/main/res/layout/sticker_view.xml" value="0.2" />
+        <entry key="..\:/Workspace/practice modul/app/src/main/res/layout/text_dialog.xml" value="0.2" />
+        <entry key="..\:/Workspace/practice modul/app/src/main/res/layout/text_shadow.xml" value="0.2" />
+        <entry key="..\:/Workspace/practice modul/app/src/main/res/menu/editor_meny.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" default="true" project-jdk-name="16" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

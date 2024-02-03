@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/mainAppColor</item>
+        <item name="colorPrimaryDark">@color/mainAppColor</item>
+        <item name="colorAccent">@color/mainAppColor</item>
+        <item name="fontFamily"> @font/arlrdbd</item>
+    </style>
+
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="fontFamily"> @font/arlrdbd</item>
+    </style>
+
+    <style name="MySeekBarTheme" parent="@style/Widget.AppCompat.SeekBar">
+        <item name="colorAccent">@color/mainAppColor</item>
+    </style>
+
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/mainAppColor</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+</resources>

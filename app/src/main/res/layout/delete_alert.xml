@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="30.0dip"
+    android:layout_marginRight="30.0sp"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+      xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0.0px"
+        card_view:cardCornerRadius="20.0sp"
+        card_view:cardElevation="10.0dip"
+        app:cardBackgroundColor="@color/mainAppColor"
+        card_view:cardPreventCornerOverlap="false">
+
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/titlee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10.0sp"
+                    android:gravity="center"
+                    android:text="Delete Alert"
+                    android:textColor="@color/white"
+                    android:textSize="17.0sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="15.0sp"
+                    android:gravity="center_horizontal"
+                    android:text="Are you sure to delete this file from storage?"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/btns"
+                android:layout_width="match_parent"
+                android:layout_height="40.0sp"
+                android:layout_marginBottom="5.0dip"
+                android:layout_below="@id/titlee">
+
+                <TextView
+                    android:id="@+id/deleteNo"
+                    android:layout_width="80.0dip"
+                    android:layout_height="40.0sp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_30sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:gravity="center"
+                    android:text="No"
+                    android:textColor="@color/white"
+                    android:textSize="17.0sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/deleteYes"
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="40.0sp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_30sdp"
+                    android:gravity="center"
+                    android:text="Yes"
+                    android:textColor="@color/white"
+                    android:textSize="17.0sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

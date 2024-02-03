@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--    /* Layout for frames*/-->
+    <RelativeLayout
+        android:id="@+id/linearlayout_bgs_data"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+
+        android:background="@color/white"
+        >
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:visibility="gone"
+            android:id="@+id/recyclerview_colorsTshirt"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+            android:layout_below="@id/recyclerview_colorsTshirt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:orientation="horizontal">
+
+
+            <RelativeLayout
+                android:layout_width="@dimen/_40sdp"
+                android:visibility="gone"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/cross"
+                    android:backgroundTint="#222121" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="invisibleList1" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center"-->
+<!--                android:orientation="vertical"-->
+<!--                android:layout_gravity="center">-->
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerview_frames"
+                    android:layout_width="match_parent"
+                    android:layout_above="@id/recyclerview_categoriesShirts"
+                    android:layout_height="wrap_content" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerview_categoriesShirts"
+                    android:layout_width="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content" />
+
+
+
+<!--            </LinearLayout>-->
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <!--    Layout For Stickers-->
+    <RelativeLayout
+        android:id="@+id/linearlayout_stickers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="@dimen/_40sdp"
+                android:visibility="gone"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/cross"
+                    android:backgroundTint="#222121" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="invisibleList1"
+                    />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerview_stickersCategories"
+                    android:layout_width="match_parent"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content"
+                    />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerview_stickers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+    <!--    /* Layout for Fonts*/-->
+    <RelativeLayout
+        android:id="@+id/linearlayout_fonts"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        >
+
+        <!--        <View-->
+        <!--            android:layout_alignParentTop="true"-->
+        <!--            android:layout_marginTop="@dimen/_1sdp"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="@dimen/_1sdp"-->
+        <!--            android:background="#A19E9E"/>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="@dimen/_40sdp"
+                android:visibility="gone"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/cross"
+                    android:backgroundTint="#222121" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="invisibleAllLists"  />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerview_fonts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <!--    Layout For Sticker Adjustment-->
+    <LinearLayout
+        android:id="@+id/linearlayout_StickerAdjustments"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_5sdp">
+
+        <TextView
+            android:id="@+id/stickerControlUp"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:background="@drawable/left_control"
+            android:rotation="90" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-5dp"
+            android:layout_marginBottom="-5dp"
+            android:background="@color/white"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/stickerControlLeft"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:background="@drawable/left_control" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Controls"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/_9sdp"
+                android:textColor="@color/black" />
+
+
+            <TextView
+                android:id="@+id/stickerControlRight"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:background="@drawable/left_control"
+                android:rotation="180" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/stickerControlBottom"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:background="@drawable/left_control"
+            android:rotation="270" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/stickerOpacityTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:text="Opacity"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <SeekBar
+                android:id="@+id/seekbarStickerOpacity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/stickerOpacityTv"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:padding="@dimen/_10sdp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/footerStickerAdjustLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_below="@id/seekbarStickerOpacity"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <!--    /* Layout for Colors*/-->
+            <RelativeLayout
+                android:id="@+id/linearlayout_stickerColors"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/stickerColorTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:text="Color Picker"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+
+                <ImageButton
+                    android:id="@+id/stickerColorPickerBtn"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:background="@drawable/color_picker" />
+
+                <!--                    <RelativeLayout-->
+                <!--                        android:layout_width="wrap_content"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:layout_gravity="center"-->
+                <!--                        android:layout_marginLeft="@dimen/_5sdp">-->
+
+                <!--                        <androidx.recyclerview.widget.RecyclerView-->
+                <!--                            android:id="@+id/recyclerviewStickerColors"-->
+                <!--                            android:layout_width="wrap_content"-->
+                <!--                            android:layout_height="wrap_content" />-->
+                <!--                    </RelativeLayout>-->
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+<!--    shadow Adjusment-->
+    <LinearLayout
+        android:id="@+id/shadowAdjustlayout"
+        android:visibility="gone"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/_10sdp"
+            android:paddingBottom="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/tvTextShadowRadius"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="@color/black"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:text="Radius"
+                android:textStyle="bold" />
+
+            <SeekBar
+                android:id="@+id/seekTextShadowRadius"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/tvTextShadowRadius" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/_10sdp"
+            android:paddingBottom="@dimen/_10sdp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tvTextShadowDx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:text="dx"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <SeekBar
+                android:id="@+id/seekTextShadowDX"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_toRightOf="@id/tvTextShadowDx" />
+
+            <TextView
+                android:id="@+id/tvTextShadowDy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="dy"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <SeekBar
+                android:id="@+id/seekTextShadowDy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_toRightOf="@id/tvTextShadowDy" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/tvTextSelectColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:text="Color Picker: "
+                android:textColor="@color/black"
+                android:textSize="@dimen/_13sdp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/shadowColorpicker"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_toRightOf="@id/tvTextSelectColor"
+                android:background="@drawable/color_picker" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <!--    /* Layout for Filters*/-->
+    <RelativeLayout
+        android:id="@+id/linearlayout_filters"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:visibility="gone"
+        android:paddingTop="@dimen/_3sdp">
+
+        <!--        <View-->
+        <!--            android:layout_alignParentTop="true"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_marginTop="@dimen/_1sdp"-->
+        <!--            android:layout_height="@dimen/_1sdp"-->
+        <!--            android:background="#A19E9E"/>-->
+
+        <SeekBar
+            android:id="@+id/filterSeekOpacity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:layout_marginBottom="@dimen/_8sdp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/filterSeekOpacity"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <RelativeLayout
+                android:layout_width="@dimen/_40sdp"
+                android:visibility="gone"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/cross"
+                    android:backgroundTint="#222121" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="invisibleList1" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerview_filters"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <!--    /* Layout for Colors*/-->
+    <RelativeLayout
+        android:id="@+id/linearlayout_colors"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <!--        <View-->
+        <!--            android:layout_alignParentTop="true"-->
+        <!--            android:layout_marginTop="@dimen/_1sdp"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="@dimen/_1sdp"-->
+        <!--            android:background="#A19E9E"/>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:orientation="horizontal"
+
+            >
+
+            <RelativeLayout
+                android:layout_width="@dimen/_40sdp"
+                android:visibility="gone"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/cross"
+                    android:backgroundTint="#222121" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="invisibleList1" />
+
+            </RelativeLayout>
+
+            <ImageButton
+
+                android:id="@+id/textColorPickerBtn"
+                android:layout_width="@dimen/_40sdp"
+                android:visibility="gone"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/color_picker" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_5sdp">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerview_colors"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+<!--    Layout for gradient Bg-->
+    <LinearLayout
+        android:id="@+id/linearlayoutGradients"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:gravity="center"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/llGradsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/startColorGradient"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:background="@color/red"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="Start Color"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_9sdp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/endColorGradient"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:background="@color/blue"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="End Color"
+                    android:textSize="@dimen/_9sdp"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/radioGroupGradient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/llGradsLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/gradRadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:checked="true"
+                android:text="Linear Gradient" />
+
+            <RadioButton
+                android:id="@+id/gradRadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Radial Gradient" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/okGradientBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_25sdp"
+            android:textSize="@dimen/_8sdp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:textColor="@color/white"
+            android:background="@drawable/border_shape"
+            android:backgroundTint="@color/mainAppColor"
+            android:text="Ok" />
+
+
+    </LinearLayout>
+
+
+    <!--    text opacity-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearlayoutTextOpacity"
+        android:padding="@dimen/_10sdp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:background="@color/white"
+        >
+
+        <TextView
+            android:id="@+id/tvTextOpacity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:text="Opacity"
+            android:textStyle="bold" />
+
+        <SeekBar
+            android:id="@+id/seekTextOpacity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tvTextOpacity" />
+
+    </RelativeLayout>
+
+<!--    text alignment-->
+    <LinearLayout
+        android:id="@+id/linearlayout_textAlignment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:background="@color/white"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/_30sdp"
+            android:paddingTop="@dimen/_10sdp"
+            android:paddingRight="@dimen/_30sdp"
+            android:paddingBottom="@dimen/_10sdp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:text="Letter Spacing"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10sdp" />
+
+            <SeekBar
+                android:id="@+id/seekbarLetterspacing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="10"
+                android:progress="0" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textControlUp"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="@dimen/_40sdp"
+            android:background="@drawable/left_control"
+            android:rotation="90" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_marginTop="-5dp"
+            android:layout_marginBottom="-5dp"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/textControlLeft"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:background="@drawable/left_control"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Controls"
+                android:textSize="@dimen/_9sdp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textControlRight"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:background="@drawable/left_control"
+                android:rotation="180" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="right"
+                android:layout_marginRight="@dimen/_10sdp"
+                >
+
+                <TextView
+                    android:id="@+id/textAlignLeft_Btn"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:background="@drawable/left_align"
+                    android:padding="@dimen/_5sdp" />
+
+                <TextView
+                    android:id="@+id/textAlignCenter_Btn"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:background="@drawable/center_align"
+                    android:padding="@dimen/_5sdp" />
+
+                <TextView
+                    android:id="@+id/textAlignRight_Btn"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:background="@drawable/right_align"
+                    android:padding="@dimen/_5sdp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textControlBottom"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="@dimen/_40sdp"
+            android:background="@drawable/left_control"
+            android:rotation="270" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

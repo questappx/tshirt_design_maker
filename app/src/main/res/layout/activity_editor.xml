@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    tools:ignore="UsingOnClickInXml"
+    android:layout_height="match_parent"
+    tools:context="com.questappx.tshirtmaker.EditorActivity"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_marginTop="-8dp"
+        android:background="@drawable/header">
+
+        <ImageView
+            android:id="@+id/backArrowBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:src="@drawable/ic_arrow_back"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="@string/app_name"
+            android:layout_toRightOf="@id/backArrowBtn"
+            android:textSize="@dimen/_13sdp"
+            android:layout_centerVertical="true"
+            />
+
+
+        <ImageView
+            android:id="@+id/shareappTv"
+            android:layout_width="@dimen/_50sdp"
+            android:padding="@dimen/_10sdp"
+            android:layout_marginRight="-13dp"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@id/proVersionAdFree"
+            android:layout_centerVertical="true"
+            android:src="@drawable/baseline_share_24"
+            app:tint="@color/white" />
+
+        <ImageView
+            android:id="@+id/proVersionAdFree"
+            android:layout_width="@dimen/_50sdp"
+            android:padding="@dimen/_10sdp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/premium"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/fbAdLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:background="@drawable/border_btn"
+        android:minHeight="@dimen/_40sdp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Space for Ads" />
+
+
+        <LinearLayout
+            android:id="@+id/banner_container"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="#FFF"
+            android:orientation="vertical" />
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/admob_banner"
+            >
+
+        </com.google.android.gms.ads.AdView>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/layoutArtboardJpg"
+        android:layout_below="@id/fbAdLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_300sdp"
+        android:background="@color/white"
+        android:gravity="center"
+        >
+
+        <RelativeLayout
+            android:id="@+id/layoutArtboardPng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+        <com.xiaopo.flying.logoSticker.StickerView
+            android:id="@+id/stickerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <RelativeLayout
+                android:id="@+id/stickerLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+                <ImageView
+                    android:id="@+id/imageview_Bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="0dp"
+                    android:src="@drawable/tshirt30"
+                    android:layout_marginBottom="0dp"
+                    android:padding="@dimen/_10sdp"
+
+                    />
+
+            <ImageView
+                android:id="@+id/imageview_filter"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="0.3"
+                android:scaleType="fitXY" />
+            
+        </com.xiaopo.flying.logoSticker.StickerView>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layoutFooter"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_48sdp"
+        android:layout_marginTop="-5dp"
+        android:layout_below="@id/layoutArtboardJpg"
+        android:background="@color/footer_bg_color"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/_10sdp"
+        android:paddingRight="@dimen/_10sdp"
+        android:weightSum="6">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+
+            <ImageButton
+                android:id="@+id/framesBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/footer_bg_color"
+                android:padding="15dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/bg" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+
+            <ImageButton
+                android:id="@+id/tshirtsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/footer_bg_color"
+                android:padding="15dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/tshirt" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/galleryBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/footer_bg_color"
+                android:padding="15dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/gallery" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/addStickerImgBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/footer_bg_color"
+                android:padding="15dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/sticker" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/addTextBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/footer_bg_color"
+                android:padding="15dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/addtext" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/saveImgBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/footer_bg_color"
+                android:padding="15dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/save" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearlayoutList2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_3sdp"
+        >
+
+        <include layout="@layout/linear_layoutlist2" />
+
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/linearlayoutList3"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_above="@id/linearlayoutList2"
+        android:layout_below="@id/layoutFooter"
+        >
+
+        <include layout="@layout/linear_layoutlist3" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/linearlayoutList1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <include layout="@layout/linear_layoutslist1" />
+    </RelativeLayout>
+
+
+
+
+
+
+</RelativeLayout>
