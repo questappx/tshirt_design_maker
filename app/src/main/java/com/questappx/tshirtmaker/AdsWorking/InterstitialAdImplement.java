@@ -76,7 +76,7 @@ public class InterstitialAdImplement {
                     public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
                         Log.i(TAG, "AdMob Interstitial Failed to Load: " + loadAdError.getMessage());
                         MainActivity.interstitialAd = null;
-                        loadFANInterstitial();
+//                        loadFANInterstitial();
                     }
                 });
     }

@@ -9,9 +9,9 @@
               <option name="connection">
                 <ConnectionSetting>
                   <option name="appId" value="com.questappx.tshirt.designmaker" />
-                  <option name="mobileSdkAppId" value="1:628726690830:android:63b238992ee12ad1b7385f" />
-                  <option name="projectId" value="tshirt-maker-86058" />
-                  <option name="projectNumber" value="628726690830" />
+                  <option name="mobileSdkAppId" value="1:14822449106:android:23d0180e05c9e78382320b" />
+                  <option name="projectId" value="tshirt-design-maker" />
+                  <option name="projectNumber" value="14822449106" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

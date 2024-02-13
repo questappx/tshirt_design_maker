@@ -8,6 +8,7 @@ import android.media.MediaScannerConnection;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Environment;
+import android.os.Handler;
 import android.provider.MediaStore;
 import android.view.ViewGroup;
 import android.widget.Toast;
@@ -49,8 +50,12 @@ public class SaveImage {
             fileDir.mkdir();
         }
 
-        layout.setDrawingCacheEnabled(true);
+        layout.requestLayout();
+//        layout.invalidate();
+        layout.setDrawingCacheEnabled(false);
         layout.buildDrawingCache();
+
+
         Bitmap imageToSave = layout.getDrawingCache();
 
         File fileSaved = saveBitmapFile(fileDir, imageToSave, timeStamp, true, true);
@@ -66,13 +71,6 @@ public class SaveImage {
         }
 
         return imageToSave;
-
-
-
-//        Intent intent = new Intent(context, ShareActivity.class);
-//        intent.putExtra("fileuri", Uri.fromFile(fileSaved).toString());
-//        context.startActivity(intent);
-//        ((Activity)context).finish();
 
     }
 

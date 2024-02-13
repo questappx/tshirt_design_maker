@@ -2,6 +2,8 @@ package com.questappx.tshirtmaker;
 
 import static com.questappx.tshirtmaker.Billing.InApp.isPaid;
 
+import static java.lang.System.exit;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
@@ -18,6 +20,7 @@ import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -306,6 +309,47 @@ public class MainActivity extends AppCompatActivity {
         }, 4500);
     }
 
+    private void rateusDialog() {
+        Dialog dialog = new Dialog(MainActivity.this);
+        dialog.setContentView(R.layout.rateus_dialog);
+        dialog.show();
+        ImageView buttonCancel = dialog.findViewById(R.id.dialogBtnCancel);
+        ImageView buttonNoThanks = dialog.findViewById(R.id.dialogNoThanks);
+        ImageView buttonOk = dialog.findViewById(R.id.dialogBtnSubmit);
+        if (dialog.getWindow() != null)
+            dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+//        dialog.setCancelable(false);
 
 
+
+        buttonOk.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                func_rateus();
+                dialog.dismiss();
+            }
+        });
+
+        buttonCancel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dialog.dismiss();
+            }
+        });
+
+        buttonNoThanks.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dialog.dismiss();
+                finish();
+            }
+        });
+
+
+    }
+
+    @Override
+    public void onBackPressed() {
+        rateusDialog();
+    }
 }

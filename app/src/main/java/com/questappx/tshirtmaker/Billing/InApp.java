@@ -81,7 +81,7 @@ public class InApp {
             }
             else if(billingResult.getResponseCode() == BillingClient.BillingResponseCode.DEVELOPER_ERROR)
             {
-                Toast.makeText(((Activity)context), "DEVELOPER_ERROR", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(((Activity)context), "DEVELOPER_ERROR", Toast.LENGTH_SHORT).show();
             }
             else if(billingResult.getResponseCode() == BillingClient.BillingResponseCode.SERVICE_DISCONNECTED)
             {

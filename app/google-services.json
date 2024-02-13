@@ -1,38 +1,29 @@
 {
   "project_info": {
-    "project_number": "628726690830",
-    "project_id": "tshirt-maker-86058",
-    "storage_bucket": "tshirt-maker-86058.appspot.com"
+    "project_number": "14822449106",
+    "project_id": "tshirt-design-maker",
+    "storage_bucket": "tshirt-design-maker.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:628726690830:android:63b238992ee12ad1b7385f",
+        "mobilesdk_app_id": "1:14822449106:android:23d0180e05c9e78382320b",
         "android_client_info": {
           "package_name": "com.questappx.tshirt.designmaker"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "628726690830-42mtr2igp6h0ibuuhth19nc6dll4ho39.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDdse9DG4yXVXYJz6y45SxY8jqCKYNdVHA"
+          "current_key": "AIzaSyAyFwGLa6t-Rfn2NDoAzaX9CxxnWUzCVZ4"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "628726690830-42mtr2igp6h0ibuuhth19nc6dll4ho39.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
-      }
+      },
+      "admob_app_id": "ca-app-pub-7236509513325540~9321367611"
     }
   ],
   "configuration_version": "1"
